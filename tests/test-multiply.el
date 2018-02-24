@@ -1,5 +1,5 @@
 
-(require 'undercover-init.el)
+(load-file "./tests/undercover-init.el")
 (require 'undercover.el-buttercup-integration-example)
 
 (describe "Function: `multiply'"
